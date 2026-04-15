@@ -1,15 +1,13 @@
-# Carousel Import Fix - COMPLETED ✅
+# Vercel Build Fix - LeyneeK Project
 
 **Project:** project8
-**Status:** Done
+**Status:** In Progress
 
 ## Steps:
-- [x] 1. Understand issue (import extension mismatch .png vs .jpg)
-- [x] 2. Create TODO.md for tracking  
-- [x] 3. Edit Carousel.jsx imports (car1.png → car1.jpg, car2.png → car2.jpg, car3.png → car3.jpg)
-- [x] 4. Verify changes and complete task
+- [x] 1. Identify build issue (typo in App.jsx)
+- [x] 2. Create TODO.md for tracking
+- [x] 3. Fix typo in src/App.jsx (Produst → Product)\n- [x] 4. Test local build\n- [x] 5. Complete task
 
-**Changes made:** Updated all three image imports in `project8/src/components/Carousel.jsx` from `.png` to `.jpg` extensions matching the actual files in `src/assets/`.
+**Changes:** Fix import/component typo in App.jsx to resolve Vercel npm run build failure.
 
-**Test:** Run `cd project8 && npm run dev` - carousel images should now load without import errors.
-
+**After fix:** Run `cd project8 && npm run build` then redeploy to Vercel.

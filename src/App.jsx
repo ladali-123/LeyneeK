@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Move from './components/Move'
 import Carousel from './components/Carousel'
 import About from './components/About'
-import Produst from './components/Product'
+import Product from './components/Product'
 import Services from './components/Services'
 import Brand from './components/Brand'
 import Footer from './components/Footer'
@@ -15,7 +15,7 @@ const App = () => {
       <Move/>
       <Carousel/>
       <About/>
-      <Produst/>
+<Product/>
       <Services/>
       <Brand/>
       <Footer/>
